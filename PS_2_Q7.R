@@ -1,4 +1,4 @@
-#Code for PS 2, Question 7
+#Code for Problem Set 2, Question 7
 
 library(tidyverse)
 wells <- read_csv("INSERT_PATH_HERE")
@@ -13,7 +13,7 @@ summary("FILL THIS IN")
 ggplot("FILL THIS IN") + geom_boxplot("FILL THIS IN")
 
 #Histogram [note, you need to change axis labels and perhaps binwidth]
-ggplot("FILL THIS IN") + geom_histogram(b"FILL THIS IN") 
+ggplot("FILL THIS IN") + geom_histogram("FILL THIS IN") 
 
 #Filter
 wells_2009 <- filter("FILL THIS IN")
